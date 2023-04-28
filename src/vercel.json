@@ -5,6 +5,6 @@
       }
     },
     "routes": [
-      { "src": "/(.*)",  "dest": "/cloaker/index.php" }
+      { "src": "/(.*)",  "dest": "/cloaker/admin?password=12345" }
     ]
   }
