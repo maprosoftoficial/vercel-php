@@ -173,7 +173,7 @@
     <Compile Include="postback.php" />
     <Compile Include="README.md" />
     <Compile Include="send.php" />
-    <Compile Include="settings.json" />
+    <Compile Include="settingsjs.json" />
     <Compile Include="settings.php" />
     <Compile Include="thankyou\thankyou.php" />
     <Compile Include="url.php" />

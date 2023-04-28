@@ -18,7 +18,7 @@ require_once '../redirect.php';
 require_once 'password.php';
 check_password();
 
-$conf = new Config('../settings.json');
+$conf = new Config('../settingsjs.json');
 foreach($_POST as $key=>$value){
     $confkey=str_replace('_','.',$key);
     if (is_string($value)&&is_array($conf[$confkey])){
@@ -39,6 +39,6 @@ foreach($_POST as $key=>$value){
     }
 
 }
-$conf->toFile('../settings.json',new Json());
+$conf->toFile('../settingsjs.json',new Json());
 redirect('editsettings.php?password='.$log_password,302,false);
 ?>

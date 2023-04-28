@@ -10,7 +10,7 @@ require_once 'config/Exception.php';
 require_once 'config/Exception/ParseException.php';
 require_once 'config/Exception/FileNotFoundException.php';
 
-$conf = Config::load(__DIR__.'/settings.json');
+$conf = Config::load(__DIR__.'/settingsjs.json');
 
 $white_action = $conf->get('white.action','folder');
 $white_folder_names = $conf->get('white.folder.names',['white']);
