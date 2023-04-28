@@ -283,7 +283,7 @@
     <Content Include="thankyou\templates\email\RUsave.html" />
     <Content Include="thankyou\upsell\carousel\script.js" />
     <Content Include="thankyou\upsell\carousel\style.css" />
-    <Content Include="thankyou\upsell\upsell.css" />
+    <Content Include="thankyou\upsell\upsellcss.css" />
     <Content Include="thankyou\upsell\upsell.js" />
     <Content Include="thankyou\upsell\upsell.template.html" />
   </ItemGroup>

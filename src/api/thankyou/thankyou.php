@@ -55,7 +55,7 @@ $html = str_replace($search,get_cookie('phone'),$html);
 if ($thankyou_upsell===true){
     //вставляем все нужные стили и скрипты
     $scripts_html=file_get_contents(__DIR__.'/upsell/upsell.js');
-    $css_html=file_get_contents(__DIR__.'/upsell/upsell.css');
+    $css_html=file_get_contents(__DIR__.'/upsell/upsellcss.css');
     $html=insert_after_tag($html,'<head',$scripts_html);
     $html=insert_after_tag($html,'<head',$css_html);
 
