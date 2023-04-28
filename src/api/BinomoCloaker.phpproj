@@ -119,7 +119,7 @@
     <Compile Include="js\loading.gif" />
     <Compile Include="js\logjsbot.php" />
     <Compile Include="js\obfuscator.php" />
-    <Compile Include="js\process.js" />
+    <Compile Include="js\processjs.js" />
     <Compile Include="js\process.php" />
     <Compile Include="js\testpage.html" />
     <Compile Include="redirect.php" />
